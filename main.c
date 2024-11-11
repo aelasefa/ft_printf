@@ -6,7 +6,7 @@
 /*   By: ayelasef <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 17:28:16 by ayelasef          #+#    #+#             */
-/*   Updated: 2024/11/11 19:56:15 by ayelasef         ###   ########.fr       */
+/*   Updated: 2024/11/11 23:44:21 by ayelasef         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 #include <limits.h>
 int main()
 {
-	char *s = NULL;//"hello";
+	char *s ="hello";
 	int a = 12;
-	ft_printf("F :%s   %p  %x %X  %c\n", s, s, a, a, 'c');
-	printf(" O : %s   %p  %x %X  %c\n", s, s, a, a, 'c');
+	printf("%d",ft_printf("F: %s %p %x %X %c %d %%   \n", s, s, a, a, 'c',a));
+	printf("%d",printf("O: %s %p %x %X %c %d %%   \n", s, s, a, a, 'c',a));
 }

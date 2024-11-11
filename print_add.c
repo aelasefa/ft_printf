@@ -6,7 +6,7 @@
 /*   By: ayelasef <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 19:34:52 by ayelasef          #+#    #+#             */
-/*   Updated: 2024/11/11 19:53:54 by ayelasef         ###   ########.fr       */
+/*   Updated: 2024/11/11 23:47:25 by ayelasef         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ int	print_add(unsigned long nb)
 
 	count = 0;
 	hex = "0123456789abcdef";
-	print_string("0x");
+	count += print_string("0x");
 	if (nb < 16)
 	{
 		count += print_char(hex[nb]);

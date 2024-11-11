@@ -6,7 +6,7 @@
 /*   By: ayelasef <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 09:58:56 by ayelasef          #+#    #+#             */
-/*   Updated: 2024/11/11 14:46:44 by ayelasef         ###   ########.fr       */
+/*   Updated: 2024/11/11 20:36:46 by ayelasef         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,7 +35,7 @@ static int	ft_count_nb(int n)
 int	print_int(int nb)
 {
 	int	count;
-	
+
 	if (nb == -2147483648)
 	{
 		ft_putnbr_fd(nb, 1);

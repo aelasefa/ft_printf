@@ -6,15 +6,15 @@
 /*   By: ayelasef <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 15:27:20 by ayelasef          #+#    #+#             */
-/*   Updated: 2024/11/11 19:53:32 by ayelasef         ###   ########.fr       */
+/*   Updated: 2024/11/11 20:32:23 by ayelasef         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "printf.h"
 
-int  print_hex(unsigned long nb , char *hex)
+int	print_hex(unsigned long nb, char *hex)
 {
-	int		count;
+	int	count;
 
 	count = 0;
 	if (nb < 16)

@@ -6,7 +6,7 @@
 /*   By: ayelasef <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 12:36:59 by ayelasef          #+#    #+#             */
-/*   Updated: 2024/11/11 19:52:53 by ayelasef         ###   ########.fr       */
+/*   Updated: 2024/11/11 20:36:06 by ayelasef         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,4 +24,4 @@ int	print_char(char c);
 int	print_unsigned(unsigned int nb);
 int	print_hex(unsigned long nb, char *hex);
 int	print_add(unsigned long nb);
-# endif
+#endif
