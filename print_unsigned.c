@@ -6,11 +6,11 @@
 /*   By: ayelasef <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 12:52:54 by ayelasef          #+#    #+#             */
-/*   Updated: 2024/11/11 14:53:10 by ayelasef         ###   ########.fr       */
+/*   Updated: 2024/11/12 19:08:13 by ayelasef         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "printf.h"
+#include "ft_printf.h"
 
 static void	ft_print(unsigned int nb)
 {

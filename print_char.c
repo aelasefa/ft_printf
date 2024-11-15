@@ -6,11 +6,11 @@
 /*   By: ayelasef <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 12:49:11 by ayelasef          #+#    #+#             */
-/*   Updated: 2024/11/11 20:41:42 by ayelasef         ###   ########.fr       */
+/*   Updated: 2024/11/12 19:07:16 by ayelasef         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "printf.h"
+#include "ft_printf.h"
 
 int	print_char(char c)
 {

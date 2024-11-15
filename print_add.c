@@ -6,19 +6,19 @@
 /*   By: ayelasef <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 19:34:52 by ayelasef          #+#    #+#             */
-/*   Updated: 2024/11/11 23:47:25 by ayelasef         ###   ########.fr       */
+/*   Updated: 2024/11/12 20:26:43 by ayelasef         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "printf.h"
+#include "ft_printf.h"
 
-int	print_add(unsigned long nb)
+int	print_add(void *n, char *hex)
 {
-	char	*hex;
-	int		count;
+	int				count;
+	unsigned long	nb;
 
 	count = 0;
-	hex = "0123456789abcdef";
+	nb = (unsigned long)n;
 	count += print_string("0x");
 	if (nb < 16)
 	{

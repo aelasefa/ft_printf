@@ -6,11 +6,11 @@
 /*   By: ayelasef <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 09:58:56 by ayelasef          #+#    #+#             */
-/*   Updated: 2024/11/11 20:36:46 by ayelasef         ###   ########.fr       */
+/*   Updated: 2024/11/12 19:07:45 by ayelasef         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "printf.h"
+#include "ft_printf.h"
 
 static int	ft_count_nb(int n)
 {

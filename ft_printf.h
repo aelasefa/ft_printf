@@ -1,31 +1,27 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_memcmp.c                                        :+:      :+:    :+:   */
+/*   ft_printf.h                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ayelasef <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/10/23 16:26:02 by ayelasef          #+#    #+#             */
-/*   Updated: 2024/10/28 18:48:11 by ayelasef         ###   ########.fr       */
+/*   Created: 2024/11/12 19:04:39 by ayelasef          #+#    #+#             */
+/*   Updated: 2024/11/13 00:40:28 by ayelasef         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#ifndef FT_PRINTF_H
 
-int	ft_memcmp(const void *s1, const void *s2, size_t n)
-{
-	unsigned char	*str1;
-	unsigned char	*str2;
-	size_t			i;
+# define FT_PRINTF_H
+# include "libft/libft.h"
+# include <stdio.h>
+# include <stdarg.h>
 
-	str1 = (unsigned char *)s1;
-	str2 = (unsigned char *)s2;
-	i = 0;
-	while (i < n)
-	{
-		if (str1[i] != str2[i])
-			return (str1[i] - str2[i]);
-		i++;
-	}
-	return (0);
-}
+int	ft_printf(const char *format, ...);
+int	print_int(int nb);
+int	print_string(char *s);
+int	print_char(char c);
+int	print_unsigned(unsigned int nb);
+int	print_hex(unsigned long nb, char *hex);
+int	print_add(void *n, char *hex);
+#endif
